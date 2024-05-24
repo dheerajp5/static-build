@@ -1,5 +1,5 @@
 nav{
-    background-color:white;
+    background-color:whitesmoke;
      height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -7,4 +7,7 @@ nav{
 }
 svg{
     height: 30px;
+}
+body{
+    background-color: white;
 }
