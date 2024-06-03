@@ -1,0 +1,126 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: whitesmoke;
+ /* height: 100vh; */
+ /* width: 100vw;  */
+  display: flex;
+  margin: 0;
+  box-sizing: border-box;
+}
+aside {
+  background: aqua;
+   height: 100%;
+  width: 20%; 
+}
+
+.i {
+  width: 100%;
+  
+  
+}
+
+.i main {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  align-items: center;
+  
+}
+
+nav {
+  background-color: white;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    
+}
+.menu-icon {
+  width: 50px;
+  height: 50px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  padding: 12px 20px;
+  border-radius: 50px;
+  background: linear-gradient(to right, blue, red, orange);
+  color: yellow;
+  border: 1px solid white;
+}
+
+.center {
+  width: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center img {
+  border-radius: 50%;
+}
+
+.center div {
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 2px blue ;
+}
+
+  .image{
+  height: 50%;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items:center; 
+    
+ } 
+  
+p{
+  text-wrap: balance;
+  padding-top: 3px;
+}
+/* .icon{
+height: 50px;
+width: 50px;
+} */
+.imageCont
+{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+
+ 
+}
+/* .blue{
+  border-radius: 1px;
+  color: blue;
+} */
+
+
+/* .navside{
+  border-radius: 50px solid red;
+  height: 80%;
+  width:100% ;
+  
+} */
+
